@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+container {
+  width: 100%;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black!important
+}
+.nav-container p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+#root > div > div {
+  width: 1920px!important
+}
+
+#background-image {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-attachement: fixed;
+}
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeStart {
+  padding: 0;
+  width: 3vw;
+  height: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiSvgIcon-root {
+  fill: white;
+}
+
+/* X BUTTON FOR DRAWER STYLING */
+
+#drawer > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 > div > div:nth-child(1) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#drawer > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 > div > div:nth-child(1) > button {
+  color: white;
+  height: 3.5vw;
+  width: 3.5vw;
+  margin-top: 1vw
+}
+
+#drawer > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 > div > div:nth-child(1) > button > span.MuiIconButton-label > svg {
+  font-size: 3vw;
+}
+
+/* STYLING FOR SEARCH BAR */
+
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > form > div.field.makeStyles-form_field-20 > div > input, #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > form > div.field.makeStyles-form_field-22 > div > input, #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > form > div.field.makeStyles-form_field-24 > div > input, #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > form > div.field.makeStyles-form_field-19 > div > input, #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > form > div.field.makeStyles-form_field-18 > div > input, #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > form > div.field.makeStyles-form_field-23 > div > input, #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > form > div.field.makeStyles-form_field-43 > div > input {
+    border: none;
+    font-size: 1vw;
+}
+
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > form > div:nth-child(2), #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > form > div:nth-child(2), #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > form > div:nth-child(2), #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > form > div:nth-child(2), #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > form > div:nth-child(2), #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > form > div:nth-child(2), #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > form > div:nth-child(2){
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg, #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg, #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg, #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg, #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg, #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg, #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > form > div:nth-child(2) > label > span.MuiIconButton-label > svg {
+    color: black;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+#search_icon {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+/* END OF SEARCH BAR STYLING */
+
+/* DRAWER STYLING */
+
+#drawer > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 {
+  background-color: #2C3232;
+}
+
+.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+
+
+body > div.MuiDrawer-root.MuiDrawer-modal.makeStyles-drawer-11 > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 > div > div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid white;
+}
+body > div.MuiDrawer-root.MuiDrawer-modal.makeStyles-drawer-11 > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 > div > div > img {
+  height: 80%;
+  width: 80%;
+}
+
+
+
+body > div.MuiDrawer-root.MuiDrawer-modal.makeStyles-drawer-11 > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16 > div > div:nth-child(1) {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+/* END OF DRAWER STYLING */
+
+/* REST OF NAVBAR STYLING USER ICON, LOGOUT TEXT */
+
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > a.makeStyles-user_holder-31 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > a.makeStyles-user_holder-33 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > a.makeStyles-user_holder-35 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > a.makeStyles-user_holder-35 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > a.makeStyles-user_holder-31 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > a.makeStyles-user_holder-29 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > a.makeStyles-user_holder-34 > img, #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > a.makeStyles-user_holder-54 > img
+{
+  height: 80%;
+  width: 80%;
+}
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > img:nth-child(9), #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > img:nth-child(9), #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > img:nth-child(9), #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > img:nth-child(9), #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > img:nth-child(9), #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > img:nth-child(9), #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > img:nth-child(9) {
+  height: 50%;
+  margin: 0 2vw;
+  width:
+}
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label, #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label, #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label, #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label, #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label, #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label, #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text > span.MuiButton-label {
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+#root > div > div > div > div.MuiBox-root.MuiBox-root-34 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text, #root > div > div > div > div.MuiBox-root.MuiBox-root-36 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text, #root > div > div > div > div.MuiBox-root.MuiBox-root-38 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text, #root > div > div > div > div.MuiBox-root.MuiBox-root-33 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text, #root > div > div > div > div.MuiBox-root.MuiBox-root-32 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text, #root > div > div > div > div.MuiBox-root.MuiBox-root-37 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text, #root > div > div > div > div.MuiBox-root.MuiBox-root-57 > header > div > button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  width: 20%;
+}
+
+/* END OF REST OF NAVBAR STYLING */
+
+/* LOGIN / SIGN UP PAGE STYLING */
+#text {
+  padding: 1.5vw;
+  font-size: 0.9vw;
+  border-radius: 0;
+}
+#root > div > div > div > div > form > div:nth-child(3) > button, #root > div > div > div > div > form > div:nth-child(4) > button {
+  padding: 1vw;
+  border-radius: 0;
+  font-size: 1.2vw;
+  width: 100%;
+  margin-top: 1vw;
+  color: #403A3A;
+  background-color: #D1BFBF;
+  border: 2px solid white
+}
+
+#root > div > div > div > div > form > div:nth-child(3) > button:hover, #root > div > div > div > div > form > div:nth-child(4) > button:hover {
+  color: white;
+  background-color: #69B0B5;
+}
+
+/* END OF LOGIN / SIGN UP STYLING */
+
+/* RATING SYMBOL STYLING */
+
+i.active.icon {
+  color: #C7C74A!important;
+  font-size: 1.5vw!important;
+  border: 2px solid #C7C74A;
+  margin-right: 0.5vw!important;
+  padding: 0.1vw!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i.icon {
+  color: gray!important;
+  font-size: 1.5vw!important;
+  border: 2px solid gray;
+  margin-right: 0.5vw!important;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  padding: 0.1vw!important;
+}
+
+/* END OF RATING STYLING */
+
